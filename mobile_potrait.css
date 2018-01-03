@@ -102,16 +102,22 @@ a {
   color: #595959;
 
 }
+a1 {
+  /*color: #ffff66;*/
+  color: #F0FFFF;
+
+}
+
 
 .container4{
-    font-size: 1.3em;
-    position: absolute;
+    font-size: 1.5em;
+    position: inherit;
     z-index: 10;
-    top: 50%;
+    top: 60%;
     left: 10%;
-    margin-top: 8%;
-    margin-bottom: 10%;
-    margin-left: 0%;
+    margin-top: 30%;
+    margin-bottom: 40%;
+    margin-left: 10%;
     margin-right: 15%;
     padding: 20px;
     border-radius: 4px;
@@ -142,7 +148,7 @@ p {
 font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
   font-size: 0.7em;
   text-align: center;
-  color: #595959;
+  color: #F0FFFF;
 }
 
 #particles-js{
@@ -167,5 +173,5 @@ font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 }
 
 .fa{
-  font-size: 0.7em;
+  font-size: 1em;
 }
