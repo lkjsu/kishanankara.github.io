@@ -1,0 +1,178 @@
+
+body, html {
+  padding: 0;
+  margin: 0;
+  height: auto;
+  width: auto;
+  background-size: auto;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.cartoon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+}
+
+.titles {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  right: 0;
+
+}
+
+h1 {
+  font-size: 1.5em;
+color: #696969;
+font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;  letter-spacing: 2px;
+  pointer-events: none;
+  font-weight: 500;
+  border: 0px;
+  margin: 0px;
+  text-align: center;
+   -webkit-animation:colorchange 20s infinite alternate;
+  /*color: #7a9fd0;*/
+
+}
+@-webkit-keyframes colorchange {
+      0% {
+
+        color: #F0F8FF;
+      }
+
+      10% {
+
+        color: #FDA901;
+      }
+
+      20% {
+
+        color: #A9A9A9;
+      }
+
+      30% {
+
+        color: #A9A9A9;
+      }
+
+      40% {
+
+        color: #FDA901;
+      }
+
+      50% {
+
+        color: #696969;
+      }
+
+      60% {
+
+        color: #F0FFFF;
+      }
+
+      70% {
+
+        color: #696969;
+      }
+      80% {
+
+        color: #F0FFFF;
+      }
+
+      90% {
+
+        color: #696969;
+      }
+
+      100% {
+
+        color: #696969;
+      }
+    }
+a {
+  /*color: #ffff66;*/
+  color: #595959;
+
+}
+a1 {
+  /*color: #ffff66;*/
+  color: #F0FFFF;
+
+}
+
+
+.container4{
+    font-size: 1.3em;
+    position: inherit;
+    z-index: 10;
+    top: 5%;
+    left: 5%;
+    right: 3%;
+    margin-top: 4%;
+    margin-bottom: 100%;
+    margin-left: 1.0%;
+    margin-right: 2.0%;
+    padding: 20px;
+    border-radius: 4px;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.5;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+
+
+p {
+font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-size: 0.7em;
+  text-align: center;
+  color: #F0FFFF;
+}
+
+#particles-js{
+
+  background-color: black;
+  position: fixed;
+  width:100%;
+  height:100%;
+  left:0px;
+  top:0px;
+  z-index:-999;
+}
+
+
+.bullets {
+  color: black;
+}
+
+.social {
+  color: #ef8319;
+
+}
+
+.fa{
+  font-size: 1em;
+}
