@@ -113,8 +113,9 @@ a1 {
     font-size: 1.3em;
     position: inherit;
     z-index: 10;
-    top: 60%;
-    left: 9%;
+    top: 10%;
+    left: 5%;
+    right: 3%;
     margin-top: 30%;
     margin-bottom: 40%;
     margin-left: 1.0%;
