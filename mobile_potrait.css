@@ -26,10 +26,11 @@ canvas {
   top: 15%;
   left: 0;
   right: 0;
+
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 1.5em;
 color: #696969;
 font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;  letter-spacing: 2px;
   pointer-events: none;
@@ -99,6 +100,7 @@ font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;  
 a {
   /*color: #ffff66;*/
   color: #595959;
+
 }
 
 .container4{
@@ -138,7 +140,7 @@ a {
 
 p {
 font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
-  font-size: 1.3em;
+  font-size: 0.7em;
   text-align: center;
   color: #595959;
 }
@@ -161,4 +163,9 @@ font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 
 .social {
   color: #ef8319;
+
+}
+
+.fa{
+  font-size: 0.7em;
 }
