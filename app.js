@@ -16,14 +16,14 @@ particlesJS('particles-js',
   {
     "particles": {
       "number": {
-        "value": 50,
+        "value": 100,
         "density": {
           "enable": true,
           "value_area": 800
         }
       },
       "color": {
-        "value": "#FFA500"
+        "value": "#FDA901"
       },
       "shape": {
         "type": "circle",
@@ -51,7 +51,7 @@ particlesJS('particles-js',
         }
       },
       "size": {
-        "value": 45,
+        "value": 15,
         "random": true,
         "anim": {
           "enable": false,
@@ -70,12 +70,12 @@ particlesJS('particles-js',
       "move": {
         "enable": true,
         "speed": 6,
-        "direction": "none",
+        "direction": "bottom",
         "random": false,
         "straight": false,
         "out_mode": "out",
         "attract": {
-          "enable": true,
+          "enable": false,
           "rotateX": 600,
           "rotateY": 1200
         }
@@ -90,7 +90,7 @@ particlesJS('particles-js',
         },
         "onclick": {
           "enable": false,
-          "mode": "push"
+          "mode": "bubble"
         },
         "resize": true
       },
