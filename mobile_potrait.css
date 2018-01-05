@@ -155,6 +155,7 @@ font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 #particles-js{
 
   background-image: url("image.jpg");
+  background-size: cover;
   position: fixed;
   width:100%;
   height:100%;
