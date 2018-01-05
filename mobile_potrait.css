@@ -156,7 +156,7 @@ font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 
   background-image: url("image.jpg");
   background-size: cover;
-  background-position: bottom 120px;
+  background-position: bottom 600px;
   -webkit-fitler: blur(3px);
   filter: blur(3px);
   position: fixed;
