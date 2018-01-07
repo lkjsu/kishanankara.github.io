@@ -53,37 +53,37 @@ font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;  
 
       10% {
 
-        color: #FDA901;
+        color: #F0FFFF;
       }
 
       20% {
 
-        color: #A9A9A9;
+        color: #FDA904;
       }
 
       30% {
 
-        color: #A9A9A9;
+        color: #F0FFFF;
       }
 
       40% {
 
-        color: #FDA901;
+        color: #F0FFFF;
       }
 
       50% {
 
-        color: #696969;
+        color: #F0FFFF;
       }
 
       60% {
 
-        color: #F0FFFF;
+        color: #FDA904;
       }
 
       70% {
 
-        color: #696969;
+        color: #F0FFFF;
       }
       80% {
 
@@ -92,12 +92,12 @@ font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;  
 
       90% {
 
-        color: #696969;
+        color: #F0FFFF;
       }
 
       100% {
 
-        color: #696969;
+        color: #F0FFFF;
       }
     }
 a {

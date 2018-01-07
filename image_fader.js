@@ -1,4 +1,4 @@
-    window.onorientationchange = function() { 
+    window.onorientationchange = function() {
         var orientation = window.orientation;
             switch(orientation) {
                 case 0:
