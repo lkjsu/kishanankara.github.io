@@ -7,7 +7,7 @@ class Main extends React.Component {
         this.state = {
             bgColor: '#252B48'
         };
-        this.colors = ['blue','yellow'];
+        this.colors = ['#252B48','#F7E987'];
         this.buttonNames = ['Lights OFF','Lights ON']
     }
 
