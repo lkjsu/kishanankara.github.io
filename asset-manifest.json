@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kishanankara.github.io/static/css/main.ca781d37.css",
-    "main.js": "/kishanankara.github.io/static/js/main.b9dece97.js",
+    "main.js": "/kishanankara.github.io/static/js/main.5280a344.js",
     "static/js/787.88012170.chunk.js": "/kishanankara.github.io/static/js/787.88012170.chunk.js",
     "index.html": "/kishanankara.github.io/index.html",
     "main.ca781d37.css.map": "/kishanankara.github.io/static/css/main.ca781d37.css.map",
-    "main.b9dece97.js.map": "/kishanankara.github.io/static/js/main.b9dece97.js.map",
+    "main.5280a344.js.map": "/kishanankara.github.io/static/js/main.5280a344.js.map",
     "787.88012170.chunk.js.map": "/kishanankara.github.io/static/js/787.88012170.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca781d37.css",
-    "static/js/main.b9dece97.js"
+    "static/js/main.5280a344.js"
   ]
 }
