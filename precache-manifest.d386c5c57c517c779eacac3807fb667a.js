@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "dc4df63798c894d8dddf",
+    "revision": "f06090a9389b276134cf",
     "url": "/kishanankara.github.io/static/css/main.69dda8d1.chunk.css"
   },
   {
-    "revision": "dc4df63798c894d8dddf",
-    "url": "/kishanankara.github.io/static/js/main.dc4df637.chunk.js"
+    "revision": "f06090a9389b276134cf",
+    "url": "/kishanankara.github.io/static/js/main.f06090a9.chunk.js"
   },
   {
     "revision": "b5dec1235d8d1d118e4f",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/kishanankara.github.io/static/media/ND.425c4338.png"
   },
   {
-    "revision": "a531080071fbd709e55cbe83973ee55b",
+    "revision": "5efa901494bf8cfdf0992fc96ee8c59c",
     "url": "/kishanankara.github.io/index.html"
   }
 ];
