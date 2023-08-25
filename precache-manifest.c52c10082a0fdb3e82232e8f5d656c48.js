@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/kishanankara.github.io/static/media/ND.425c4338.png"
   },
   {
-    "revision": "a4a60617632b9f8df4d663c6f5c464ec",
+    "revision": "a531080071fbd709e55cbe83973ee55b",
     "url": "/kishanankara.github.io/index.html"
   }
 ];
