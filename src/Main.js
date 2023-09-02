@@ -1,13 +1,14 @@
 import './App.css';
 import React from 'react';
+import Container from './Container'
 
 class Main extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            bgColor: '#252B48'
+            bgColor: '#F79BD3'
         };
-        this.colors = ['#252B48','#F7E987'];
+        this.colors = ['#241468','#F79BD3'];
         this.buttonNames = ['Lights OFF','Lights ON']
     }
 
@@ -32,7 +33,7 @@ class Main extends React.Component {
             <div>
             {
                 this.colors.map((c, index) => 
-                <button key={index} style={{backgroundColor: c, color: c === '#252B48'? 'white': 'black'}} onClick={() => {this.handleClick(c)}}>{this.buttonNames[index]}</button>)
+                <button key={index} style={{backgroundColor: c, color: c === '#241468'? 'white': 'black'}} onClick={() => {this.handleClick(c)}}>{this.buttonNames[index]}</button>)
             }
             </div>
             </div>

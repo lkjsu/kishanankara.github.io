@@ -1,15 +1,18 @@
 {
-  "files": {
-    "main.css": "/kishanankara.github.io/static/css/main.ca781d37.css",
-    "main.js": "/kishanankara.github.io/static/js/main.5280a344.js",
-    "static/js/787.88012170.chunk.js": "/kishanankara.github.io/static/js/787.88012170.chunk.js",
-    "index.html": "/kishanankara.github.io/index.html",
-    "main.ca781d37.css.map": "/kishanankara.github.io/static/css/main.ca781d37.css.map",
-    "main.5280a344.js.map": "/kishanankara.github.io/static/js/main.5280a344.js.map",
-    "787.88012170.chunk.js.map": "/kishanankara.github.io/static/js/787.88012170.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.ca781d37.css",
-    "static/js/main.5280a344.js"
-  ]
+  "main.css": "/kishanankara.github.io/static/css/main.69dda8d1.chunk.css",
+  "main.js": "/kishanankara.github.io/static/js/main.f06090a9.chunk.js",
+  "main.js.map": "/kishanankara.github.io/static/js/main.f06090a9.chunk.js.map",
+  "static/js/1.b5dec123.chunk.js": "/kishanankara.github.io/static/js/1.b5dec123.chunk.js",
+  "static/js/1.b5dec123.chunk.js.map": "/kishanankara.github.io/static/js/1.b5dec123.chunk.js.map",
+  "static/css/2.44eb7752.chunk.css": "/kishanankara.github.io/static/css/2.44eb7752.chunk.css",
+  "static/js/2.2b75a149.chunk.js": "/kishanankara.github.io/static/js/2.2b75a149.chunk.js",
+  "static/js/2.2b75a149.chunk.js.map": "/kishanankara.github.io/static/js/2.2b75a149.chunk.js.map",
+  "runtime~main.js": "/kishanankara.github.io/static/js/runtime~main.659b29ea.js",
+  "runtime~main.js.map": "/kishanankara.github.io/static/js/runtime~main.659b29ea.js.map",
+  "static/media/ND.png": "/kishanankara.github.io/static/media/ND.425c4338.png",
+  "static/css/2.44eb7752.chunk.css.map": "/kishanankara.github.io/static/css/2.44eb7752.chunk.css.map",
+  "static/css/main.69dda8d1.chunk.css.map": "/kishanankara.github.io/static/css/main.69dda8d1.chunk.css.map",
+  "index.html": "/kishanankara.github.io/index.html",
+  "precache-manifest.d386c5c57c517c779eacac3807fb667a.js": "/kishanankara.github.io/precache-manifest.d386c5c57c517c779eacac3807fb667a.js",
+  "service-worker.js": "/kishanankara.github.io/service-worker.js"
 }
