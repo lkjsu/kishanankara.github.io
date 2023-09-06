@@ -5,9 +5,9 @@ import UB from './logos/Crest_BW.png';
 import ND from './logos/ND.png';
 import HS from './logos/HS.png';
 
-const UBIcon = () => <img class="circular--square" src={UB} alt="UB" width="60px" height="60px" left="50%" top="50%" margin-left="-30px"/>
-const NDLogo = () => <img class="circular--square" src={ND} alt="UB" width="60px" height="60px" left="50%" top="50%" margin-left="-30px" />
-const HSLogo = () => <img class="circular--square" src={HS} alt="UB" width="60px" height="60px" left="50%" top="50%" margin-left="-30px" />
+const UBIcon = () => <img class="vertical-timeline-element-icon" src={UB} alt="UB" width="60px" height="60px" left="50%" top="50%" margin-left="-30px"/>
+const NDLogo = () => <img class="vertical-timeline-element-icon" src={ND} alt="UB" width="60px" height="60px" left="50%" top="50%" margin-left="-30px" />
+const HSLogo = () => <img class="vertical-timeline-element-icon" src={HS} alt="UB" width="60px" height="60px" left="50%" top="50%" margin-left="-30px" />
 
 function setColor(date) {
     if(new Date().getHours() >= 18 || new Date().getHours() <= 6) {
