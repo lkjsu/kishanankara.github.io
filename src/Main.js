@@ -1,14 +1,22 @@
 import './App.css';
 import React from 'react';
-import Container from './Container'
+import Nav from './Navigation';
+
+function setColor(date) {
+    if(new Date().getHours() >= 18 || new Date().getHours() <= 6) {
+        return "#183D3D";
+    } else {
+        return "#A8DF8E";
+    }
+}
 
 class Main extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            bgColor: '#F79BD3'
+            bgColor: setColor(new Date().toLocaleTimeString('en-GB'))
         };
-        this.colors = ['#241468','#F79BD3'];
+        this.colors = ['#183D3D','#A8DF8E'];
         this.buttonNames = ['Lights OFF','Lights ON']
     }
 
@@ -22,20 +30,19 @@ class Main extends React.Component {
     }
 
     handleClick(color) {
-        console.log("click button")
         this.setState({bgColor : color});
     }
 
     render() {
     return (
             <div className="App-header" style={{ backgroundColor : this.state.bgColor}}>
-            <p className="App-text">Aditya Kishan Ankaraboyana</p>
-            <div>
+            <p className="App-text" style={{color : this.state.bgColor === "#183D3D"? "#EEEEEE" :"#016A70"}}>Aditya Kishan Ankaraboyana</p>
+            {/* <div>
             {
                 this.colors.map((c, index) => 
-                <button key={index} style={{backgroundColor: c, color: c === '#241468'? 'white': 'black'}} onClick={() => {this.handleClick(c)}}>{this.buttonNames[index]}</button>)
+                <button key={index} style={{backgroundColor: c, color: c === '#183D3D'? "white": "black"}} onClick={() => {this.handleClick(c)}}>{this.buttonNames[index]}</button>)
             }
-            </div>
+            </div> */}
             </div>
             );
         }
