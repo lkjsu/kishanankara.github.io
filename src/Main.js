@@ -1,6 +1,5 @@
 import './App.css';
 import React from 'react';
-import Nav from './Navigation';
 
 function setColor(date) {
     if(new Date().getHours() >= 18 || new Date().getHours() <= 6) {
