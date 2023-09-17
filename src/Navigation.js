@@ -20,7 +20,7 @@ class Nav extends React.Component {
                 <div className="navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
                         <NavLink className="nav-item nav-link" to="/">Home</NavLink>
-                        <NavLink className="nav-item nav-link" to="/Container">Experience</NavLink>
+                        <NavLink className="nav-item nav-link" to="/Experience">Experience</NavLink>
                         <a href={Resume} className="nav-item nav-link">Resume</a>
                     </div>
                 </div>

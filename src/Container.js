@@ -17,7 +17,7 @@ function setColor(date) {
     }
 }
 
-class Container extends React.Component {
+class Experience extends React.Component {
 
     constructor(props) {
         super(props);
@@ -116,4 +116,4 @@ submissions for an assignment.
     }
 }
 
-export default Container;
+export default Experience;
