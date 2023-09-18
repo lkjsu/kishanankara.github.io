@@ -133,6 +133,32 @@
   }
 }
 
+.navbar {
+height: 10vh;
+}
+
+.nav-item-theme-dark{
+  padding-right: 7%;
+  color: #71dd8a;
+  text-decoration: none;
+}
+
+.nav-item-theme-dark:hover {
+  color: #016A01;
+  text-decoration: none;;
+}
+
+.nav-item-theme-light{
+  padding-right: 7%;
+  color: #016A01;
+  text-decoration: none;
+}
+
+.nav-item-theme-light:hover {
+  color: #fff;
+  text-decoration: none;;
+}
+
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
