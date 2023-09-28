@@ -31,15 +31,15 @@ class Main extends React.Component {
             <div className="App-header" style={{ backgroundColor : this.state.bgColor}}>
             <div class="bouncing-text" style={{color : this.state.bgColor === "#183D3D"? "#EEEEEE" :"#016A70"}}>
                 <div class="b">H</div>
-                <div class="o">e</div>
-                <div class="u">y</div>
-                <div class="n">&nbsp;&nbsp;I</div>
-                <div class="c">'</div>
-                <div class="e">m</div>
-                <div class="shadow"></div>
-                <div class="shadow-two"></div>
+                <div class="b">e</div>
+                <div class="b">y</div>
+                <div class="o">&nbsp;&nbsp;I</div>
+                <div class="o">'</div>
+                <div class="o">m,</div>
+                <div className="n"><br></br>Aditya</div>
+                <div className="c"><br></br>&nbsp;Kishan</div>
+                <div className="e"><br></br>&nbsp;Ankaraboyana</div>
             </div>
-            <p className="App-text" style={{color : this.state.bgColor === "#183D3D"? "#EEEEEE" :"#016A70"}}>Aditya Kishan Ankaraboyana</p>
             {/* <p1></p1> */}
             {/* <div class="letter-image">
             <div class="animated-mail">
