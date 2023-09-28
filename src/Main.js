@@ -31,7 +31,7 @@ class Main extends React.Component {
             <div className="App-header" style={{ backgroundColor : this.state.bgColor}}>
             <div class="App-text" style={{color : this.state.bgColor === "#183D3D"? "#EEEEEE" :"#016A70"}}>
                 <div className="b">Aditya Kishan</div>
-                <div className="u">&nbsp;Ankaraboyana</div>
+                <div className="e">&nbsp;Ankaraboyana</div>
             </div>
             {/* <p1></p1> */}
             {/* <div class="letter-image">
