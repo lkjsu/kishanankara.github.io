@@ -37,6 +37,7 @@ class Nav extends React.Component {
                     <div>
                         <NavLink className={getClassNameForNav()} hover={{backgroundColor: setHoverColor()}} to="/">Home</NavLink>
                         <NavLink className={getClassNameForNav()} hover={{backgroundColor: setHoverColor()}} to="/Experience">Experience</NavLink>
+                        <NavLink className={getClassNameForNav()} hover={{backgroundColor: setHoverColor()}} to="/Projects">Projects</NavLink>
                         <a href={Resume} className={getClassNameForNav()}>Resume</a>
                     </div>
                 </div>

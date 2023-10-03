@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Main from './Main';
 import Experience from './Experience';
 import Nav from './Navigation';
-import Contact from './Contact';
+import Projects from './Projects';
 
 class App extends React.Component {
 
@@ -16,7 +16,7 @@ class App extends React.Component {
                     <Routes>
                     <Route path="/" element={<Main/>} />
                     <Route path="/Experience" element={<Experience/>} />
-                    {/* <Route path="/Contact" element={<Contact />} /> */}
+                    <Route path="/Projects" element={<Projects />} />
                     </Routes>
                     </div>
                 </Router>
