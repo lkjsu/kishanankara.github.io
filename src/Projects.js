@@ -1,5 +1,13 @@
 import React from 'react';
 
+function setColor(date) {
+    if(new Date().getHours() >= 18 || new Date().getHours() <= 6) {
+        return "#183D3D";
+    } else {
+        return "#A8DF8E";
+    }
+}
+
 class Projects extends React.Component {
     constructor(props) {
         super(props);
@@ -11,7 +19,9 @@ class Projects extends React.Component {
     }
 
     render() {
+        return (
         <div className=""></div>
+        );
     }
 }
 

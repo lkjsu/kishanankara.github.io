@@ -361,8 +361,8 @@ height: 10vh;
   }
   
   .b {
-    animation: bounce 1s ease infinite;
-    -webkit-animation: bounce 1s ease infinite;
+    animation: bounce 1s ease forwards;
+    -webkit-animation: bounce 1s ease forwards;
   }
   
   .o {
@@ -371,8 +371,8 @@ height: 10vh;
   }
   
   .u {
-    animation: bounce 1s ease infinite .2s;
-    -webkit-animation: bounce 1s ease infinite .2s;
+    animation: bounce 1s ease forwards .2s;
+    -webkit-animation: bounce 1s ease forwards .2s;
   }
   
   .n {
