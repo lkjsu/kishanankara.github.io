@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/static/media/AKAResume2023.3aad3027.pdf"
   },
   {
-    "revision": "b7350e097e152e63d369529a24be7fd7",
+    "revision": "ddabc38714a23daffe12b2d3fb1c09c6",
     "url": "/index.html"
   }
 ];
