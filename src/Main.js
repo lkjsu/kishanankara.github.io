@@ -29,10 +29,7 @@ class Main extends React.Component {
     render() {
     return (
             <div className="App-header" style={{ backgroundColor : this.state.bgColor}}>
-            <div class="App-text" style={{color : this.state.bgColor === "#183D3D"? "#EEEEEE" :"#016A70"}}>
-                <div className="b">Aditya Kishan</div>
-                <div className="e">&nbsp;Ankaraboyana</div>
-            </div>
+            <div class="App-text" style={{color : this.state.bgColor === "#183D3D"? "#EEEEEE" :"#016A70"}}>Aditya Kishan Ankaraboyana</div>
             {/* <p1></p1> */}
             {/* <div class="letter-image">
             <div class="animated-mail">
