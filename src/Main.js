@@ -30,7 +30,7 @@ class Main extends React.Component {
     return (
             <div className="App-header" style={{ backgroundColor : this.state.bgColor}}>
             <div className="bouncing-text">
-            <div className="b" style={{ backgroundColor : this.state.bgColor}}>Hi, I am</div>
+            <div className="b" style={{ backgroundColor : this.state.bgColor, fontSize: "80px"}}>Hello, this is</div>
             </div>
             <div class="App-text" style={{color : this.state.bgColor === "#183D3D"? "#EEEEEE" :"#016A70"}}>Aditya Kishan Ankaraboyana</div>
             {/* <p1></p1> */}
