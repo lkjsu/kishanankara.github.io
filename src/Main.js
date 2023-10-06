@@ -33,7 +33,7 @@ class Main extends React.Component {
             <div className="b" style={{color : this.state.bgColor === "#183D3D"? "#EEEEEE" :"#016A70"}}>Aditya Kishan Ankaraboyana</div>
             </div>
             {/* <div class="u" style={{color : this.state.bgColor === "#183D3D"? "#EEEEEE" :"#016A70"}}>Ankaraboyana</div> */}
-            <div class="n" style={{color : this.state.bgColor === "#183D3D"? "#EEEEEE" :"#016A70"}}>a Software Engineer with a passion for solving tough problems.</div>
+            <div class="n" style={{color : this.state.bgColor === "#183D3D"? "#EEEEEE" :"#016A70"}}>software engineer building great expereiences.</div>
             {/* <p1></p1> */}
             {/* <div class="letter-image">
             <div class="animated-mail">
