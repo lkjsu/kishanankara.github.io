@@ -72,6 +72,11 @@
   font-size: 55px;
 }
 
+.n {
+  text-align: center;
+  font-size: 45px;
+}
+
 .App-intro {
   text-align: center;
   font-size: 15px;
@@ -88,6 +93,11 @@
   .b, .o, .u {
     text-align: center;
     font-size: 90px;
+  }
+
+  .n {
+    text-align: center;
+    font-size: 40px;
   }
 
   .App-intro {
@@ -376,8 +386,8 @@ height: 10vh;
   }
   
   .n {
-    animation: bounce 1s ease infinite .3s;
-    -webkit-animation: bounce 1s ease infinite .3s;
+    animation: bounce 1s ease forwards .3s;
+    -webkit-animation: bounce 1s ease forwards .3s;
   }
   
   .c {
