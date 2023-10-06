@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c148f15b8d20f2d643e6",
+    "revision": "d0229e74b5f8fa5a9523",
     "url": "/static/css/main.c0da1848.chunk.css"
   },
   {
-    "revision": "c148f15b8d20f2d643e6",
-    "url": "/static/js/main.f1d4f6c9.chunk.js"
+    "revision": "d0229e74b5f8fa5a9523",
+    "url": "/static/js/main.74ced6dd.chunk.js"
   },
   {
     "revision": "dc9507c8f2fe9880d8a2",
@@ -32,11 +32,11 @@ self.__precacheManifest = [
     "url": "/static/media/ND.425c4338.png"
   },
   {
-    "revision": "45ff98f60425fa2e32008edd3087983e",
-    "url": "/static/media/AKAResume2023.45ff98f6.pdf"
+    "revision": "e29390d7c91ee0abdc69f7aa966ac724",
+    "url": "/static/media/AKAResume2023.e29390d7.pdf"
   },
   {
-    "revision": "eb35a531bc76388280a5741e6b8ef0ba",
+    "revision": "7fe7cc6fa633b9cb8635b42d60e6f3e2",
     "url": "/index.html"
   }
 ];
