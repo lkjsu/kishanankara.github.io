@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "a72a0a4b6d0ae14927d9",
-    "url": "/static/css/main.c7b67850.chunk.css"
+    "revision": "e709bf16491785366b31",
+    "url": "/static/css/main.d026051a.chunk.css"
   },
   {
-    "revision": "a72a0a4b6d0ae14927d9",
-    "url": "/static/js/main.0cae5bc4.chunk.js"
+    "revision": "e709bf16491785366b31",
+    "url": "/static/js/main.37024499.chunk.js"
   },
   {
     "revision": "dc9507c8f2fe9880d8a2",
     "url": "/static/js/runtime~main.c165c877.js"
   },
   {
-    "revision": "858f31d8b00e4fae52c5",
+    "revision": "c3c3a1339340c7f9d538",
     "url": "/static/css/2.ac8c12d3.chunk.css"
   },
   {
-    "revision": "858f31d8b00e4fae52c5",
-    "url": "/static/js/2.ef5c7a5d.chunk.js"
+    "revision": "c3c3a1339340c7f9d538",
+    "url": "/static/js/2.8eee9cd4.chunk.js"
   },
   {
     "revision": "ff7f2396e4d79702702a",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/static/media/AKAResume2023.e29390d7.pdf"
   },
   {
-    "revision": "a6a1917948fb16b7101913693fd905a6",
+    "revision": "12a320791ed2960920d10876ff723b5a",
     "url": "/index.html"
   }
 ];
