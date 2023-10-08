@@ -29,11 +29,12 @@ class Main extends React.Component {
     render() {
     return (
             <div className="App-header" style={{ backgroundColor : this.state.bgColor}}>
-            <div className="bouncing-text">
-            <div className="b" style={{color : this.state.bgColor === "#053B50"? "#EEEEEE" :"#016A70"}}>Aditya Kishan Ankaraboyana</div>
-            </div>
+            {/* <div className="bouncing-text"> */}
+            <div className="b" style={{color : this.state.bgColor === "#053B50"? "#EEEEEE" :"#016A70"}}>Hello, I am</div>
+            <div className="u" style={{color : this.state.bgColor === "#053B50"? "#EEEEEE" :"#016A70"}}>Aditya Kishan Ankaraboyana</div>
             {/* <div class="u" style={{color : this.state.bgColor === "#183D3D"? "#EEEEEE" :"#016A70"}}>Ankaraboyana</div> */}
-            <div class="n" style={{color : this.state.bgColor === "#053B50"? "#EEEEEE" :"#016A70"}}>software engineer with a keen interest in Backend Development.</div>
+            <div class="e" style={{color : this.state.bgColor === "#053B50"? "#EEEEEE" :"#016A70"}}>software engineer with a keen interest in Backend Development.</div>
+            {/* </div> */}
             {/* <p1></p1> */}
             {/* <div class="letter-image">
             <div class="animated-mail">
