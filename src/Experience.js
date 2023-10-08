@@ -11,7 +11,7 @@ const HSLogo = () => <img class="vertical-timeline-element-icon" src={HS} alt="U
 
 function setColor(date) {
     if(new Date().getHours() >= 18 || new Date().getHours() <= 6) {
-        return "#183D3D";
+        return "#053B50";
     } else {
         return "#A8DF8E";
     }
@@ -24,7 +24,7 @@ class Experience extends React.Component {
         this.state = {
             bgColor: setColor(new Date().toLocaleTimeString('en-GB'))
         };
-        this.colors = ['#183D3D','#A8DF8E'];
+        this.colors = ['#232D3F','#A8DF8E'];
         this.buttonNames = ['Lights OFF','Lights ON']
     }
 
@@ -42,7 +42,7 @@ class Experience extends React.Component {
     render() {
         return (
             <div className="Page-header" style={{ backgroundColor : this.state.bgColor}}>
-            <p className="Page-text" style={{color : this.state.bgColor === "#183D3D"? "#EEEEEE" :"#016A70"}}>Experience</p>
+            <p className="Page-text" style={{color : this.state.bgColor === "#053B50"? "#EEEEEE" :"#016A70"}}>Experience</p>
             {/* <div>
             {
                 this.colors.map((c, index) => 
@@ -52,63 +52,54 @@ class Experience extends React.Component {
             <VerticalTimeline>
                 <VerticalTimelineElement 
                     className='work'
-                    contentStyle={{ background: '#016A70', color: '#EEEEEE' }}
-                    contentArrowStyle={{ borderRight: '7px solid  #016A70' }}
+                    contentStyle={{ background: '#176B87', color: '#EEEEEE' }}
+                    contentArrowStyle={{ borderRight: '7px solid  #176B87' }}
                     date="2019-2023"
                     iconStyle={{ background: '#EEEEEE', color: '#EEEEEE'}}
                     icon={<HSLogo />}
                     >
                  <h3 className="title">Software Engineer</h3>
                  <h4 className="subtitle">Palo Alto and Sunnyvale, CA</h4>
-                    <p>
-                    • designed and implemented an inventory service which allowed assigning devices to customer workloads with 66%
-                reduced network footprint.
-                    </p>
-                    <p>
-                    • added platform support for XAPK distribution which allows submission of apps that are up to 6x larger than the Play
-                Store size limit.
-                    </p>
-                    <p>
-                    • researched new techniques to parse Instruments trace file for iOS 13 through 16.
-                    </p>
-                    <p>
-                    • enhanced logging capabilities to identify bottlenecks in the CI/CD pipeline that led to performance improvements of
-                up to 30% in the profiler runtime.
-                    </p>
+                    <ul>
+                        <li>designed and implemented an inventory service which allowed assigning devices to customer workloads with 66%
+                    reduced network footprint.</li> 
+                        <li>added platform support for XAPK distribution which allows submission of apps that are up to 6x larger than the Play
+                    Store size limit.</li>
+                        <li>researched new techniques to parse Instruments trace file for iOS 13 through 16.</li>
+                        <li>enhanced logging capabilities to identify bottlenecks in the CI/CD pipeline that led to performance improvements of
+                    up to 30% in the profiler runtime.</li>
+                    </ul>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="work"
-                    contentStyle={{ background: '#016A70', color: '#EEEEEE' }}
-                    contentArrowStyle={{ borderRight: '7px solid  #016A70' }}
+                    contentStyle={{ background: '#176B87', color: '#EEEEEE' }}
+                    contentArrowStyle={{ borderRight: '7px solid  #176B87' }}
                     date="2018-2018"
                     iconStyle={{ background: '#EEEEEE', color: '#EEEEEE' }}
                     icon={<NDLogo />}
-                >
+                    >
                     <h3 className="title">Software Engineer Intern</h3>
                     <h4 className="subtitle">New York, NY</h4>
-                    <p>
-                    • researched and developed a network traffic monitoring service for iOS apps on the platform.
-                    </p>
-                    <p>
-                    • reverse engineered Xcode’s Instruments APIs to extract and analyze app performance metrics like Memory Usage,
-Network Activity, Disk IO, Call Stack, etc.
-                    </p>
+                    <ul>
+                        <li>researched and developed a network traffic monitoring service for iOS apps on the platform.</li>
+                        <li>reverse engineered Xcode’s Instruments APIs to extract and analyze app performance metrics like Memory Usage,
+Network Activity, Disk IO, Call Stack, etc.</li>
+                    </ul>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement 
                     className="work"
-                    contentStyle={{ background: '#016A70', color: '#EEEEEE' }}
-                    contentArrowStyle={{ borderRight: '7px solid  #016A70' }}
+                    contentStyle={{ background: '#176B87', color: '#EEEEEE' }}
+                    contentArrowStyle={{ borderRight: '7px solid  #176B87' }}
                     date="2017-2017"
                     iconStyle={{ background: '#EEEEEE', color: '#EEEEEE' }}
                     icon={<UBIcon />}
-                >
+                    >
                     <h3 className="title">Software Engineer</h3>
                     <h4 className="subtitle">Buffalo, NY</h4>
-                    <p>
-                    • developed a grading feature to allow more flexibility for the instructor in choosing the final grade across multiple
-submissions for an assignment.
-                    </p>
-
+                    <ul>
+                        <li>developed a grading feature to allow more flexibility for the instructor in choosing the final grade across multiple
+submissions for an assignment.</li>
+                    </ul>
                 </VerticalTimelineElement>
             </VerticalTimeline>
             </div>

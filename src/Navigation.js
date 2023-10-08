@@ -13,7 +13,7 @@ function getClassNameForNav() {
 
 function setColor() {
     if(new Date().getHours() >= 18 || new Date().getHours() <= 6) {
-        return "#183D3D";
+        return "#053B50";
     } else {
         return "#A8DF8E";
     }
