@@ -74,12 +74,27 @@ li {
   font-size: 60px;
 }
 
-.o, .u {
+.fade-in-text2 {
   text-align: center;
-  font-size: 55px;
+  font-size: 20px;
 }
 
-.e, .b{
+.fade-in-text1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.fade-in-text3{
+  text-align: center;
+  font-size: 20px;
+}
+
+.fade-in-text4{
+  text-align: center;
+  font-size: 40px;
+}
+
+.fade-in-text5{
   text-align: center;
   font-size: 20px;
 }
@@ -97,12 +112,27 @@ li {
     font-size: 90px;
   }
 
-  .o, .u {
+  .fade-in-text2 {
     text-align: center;
-    font-size: 90px;
+    font-size: 40px;
   }
 
-  .b, .e {
+  .fade-in-text1{
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .fade-in-text3{
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .fade-in-text4{
+    text-align: center;
+    font-size: 70px;
+  }
+
+  .fade-in-text5{
     text-align: center;
     font-size: 40px;
   }
@@ -111,6 +141,14 @@ li {
     text-align: center;
     font-size: 35px;
   }
+}
+
+.intro {
+  text-align: center;
+}
+
+.fade-in-text1, .fade-in-text2, .fade-in-text3 {
+  display: inline;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -325,6 +363,53 @@ height: 10vh;
     } */
   }
 }
+
+.fade-in-text1 {
+  /* font-family: Arial; */
+  /* font-size: 150px; */
+  /* position: relative;
+  display: flex;
+  font-size: 70px; */
+  animation: fadeIn 5s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  /* animation-delay: 2s; */
+}
+
+.fade-in-text2 {
+  animation: fadeIn 5s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  visibility: hidden;
+  /* animation-delay: 8s; */
+}
+
+.fade-in-text3 {
+  animation: fadeIn 5s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  visibility: hidden;
+}
+
+.fade-in-text4 {
+  animation: fadeIn 5s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+  visibility: hidden;
+}
+
+.fade-in-text5 {
+  animation: fadeIn 5s;
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
+  visibility: hidden;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; visibility: hidden;}
+  100% { opacity: 1; visibility: visible;}
+}
+
 
 .shadow {
   position: absolute;
