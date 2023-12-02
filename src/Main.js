@@ -34,8 +34,8 @@ class Main extends React.Component {
                     <div className="fade-in-text2" style={{color : this.state.bgColor === "#053B50"? "#EEEEEE" :"#016A70"}}>I </div>
                     <div className="fade-in-text3" style={{color : this.state.bgColor === "#053B50"? "#EEEEEE" :"#016A70"}}>am</div>
                 </div>
-                <div className="fade-in-text4" style={{color : this.state.bgColor === "#053B50"? "#EEEEEE" :"#016A70"}}>Aditya Kishan Ankaraboyana</div>
-                <div class="fade-in-text5" style={{color : this.state.bgColor === "#053B50"? "#EEEEEE" :"#016A70"}}>software engineer with a keen interest in Backend Development.</div>
+                <div className="fade-in-text4" style={{color : this.state.bgColor === "#053B50"? "#EEEEEE" :"#016A70"}}>Aditya Kishan Ankaraboyana.</div>
+                {/* <div class="fade-in-text5" style={{color : this.state.bgColor === "#053B50"? "#EEEEEE" :"#016A70"}}>software engineer with a keen interest in Backend Development.</div> */}
             </div>
             );
         }
