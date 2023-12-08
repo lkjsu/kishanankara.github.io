@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume from './AKAResume2023.pdf';
+import Resume from './main2.pdf';
 
 class Contact extends React.Component{
 

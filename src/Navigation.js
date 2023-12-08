@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Resume from './AKAResume2023_latex3.pdf';
+import Resume from './main2.pdf';
 
 function getClassNameForNav() {
     if(new Date().getHours() >= 18 || new Date().getHours() <= 6) {
