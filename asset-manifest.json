@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.6a8ea7d3.chunk.css",
-  "main.js": "/static/js/main.209784be.chunk.js",
-  "main.js.map": "/static/js/main.209784be.chunk.js.map",
+  "main.js": "/static/js/main.ee897aa0.chunk.js",
+  "main.js.map": "/static/js/main.ee897aa0.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.c165c877.js",
   "runtime~main.js.map": "/static/js/runtime~main.c165c877.js.map",
   "static/css/2.ac8c12d3.chunk.css": "/static/css/2.ac8c12d3.chunk.css",
@@ -10,11 +10,11 @@
   "static/js/3.a712f853.chunk.js": "/static/js/3.a712f853.chunk.js",
   "static/js/3.a712f853.chunk.js.map": "/static/js/3.a712f853.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.bbb1cb01c26f1fb42aed289b9b14eb4e.js": "/precache-manifest.bbb1cb01c26f1fb42aed289b9b14eb4e.js",
+  "precache-manifest.d5f9daf2ea73c4c52805732e1609c5c5.js": "/precache-manifest.d5f9daf2ea73c4c52805732e1609c5c5.js",
   "service-worker.js": "/service-worker.js",
   "static/css/2.ac8c12d3.chunk.css.map": "/static/css/2.ac8c12d3.chunk.css.map",
   "static/css/main.6a8ea7d3.chunk.css.map": "/static/css/main.6a8ea7d3.chunk.css.map",
-  "static/media/AKAResume2023_latex3.pdf": "/static/media/AKAResume2023_latex3.4f1a1b1a.pdf",
   "static/media/Crest_BW.png": "/static/media/Crest_BW.0f4275ca.png",
-  "static/media/ND.png": "/static/media/ND.425c4338.png"
+  "static/media/ND.png": "/static/media/ND.425c4338.png",
+  "static/media/main2.pdf": "/static/media/main2.c5644924.pdf"
 }
