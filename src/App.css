@@ -379,7 +379,7 @@ height: 10vh;
 .fade-in-text2 {
   animation: fadeIn 5s;
   animation-fill-mode: forwards;
-  animation-delay: 1s;
+  animation-delay: 0.5s;
   visibility: hidden;
   /* animation-delay: 8s; */
 }
@@ -387,21 +387,21 @@ height: 10vh;
 .fade-in-text3 {
   animation: fadeIn 5s;
   animation-fill-mode: forwards;
-  animation-delay: 2s;
+  animation-delay: 1s;
   visibility: hidden;
 }
 
 .fade-in-text4 {
   animation: fadeIn 5s;
   animation-fill-mode: forwards;
-  animation-delay: 3s;
+  animation-delay: 1.5s;
   visibility: hidden;
 }
 
 .fade-in-text5 {
   animation: fadeIn 5s;
   animation-fill-mode: forwards;
-  animation-delay: 4s;
+  animation-delay: 2.5s;
   visibility: hidden;
 }
 
