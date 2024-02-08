@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import Main from './Main';
 import Experience from './Experience';
 import Nav from './Navigation';
@@ -10,7 +10,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Router>
+                <HashRouter>
                     <div>
                     <Nav />
                     <Routes>
@@ -19,7 +19,7 @@ class App extends React.Component {
                     <Route path="/Projects" element={<Projects />} />
                     </Routes>
                     </div>
-                </Router>
+                </HashRouter>
             </div>
         )
     }

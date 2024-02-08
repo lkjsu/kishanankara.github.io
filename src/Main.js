@@ -40,26 +40,6 @@ class Main extends React.Component {
             );
         }
     }
-            // {/* <div class="u" style={{color : this.state.bgColor === "#183D3D"? "#EEEEEE" :"#016A70"}}>Ankaraboyana</div> */}
-            // {/* </div> */}
-            // {/* <p1></p1> */}
-            // {/* <div class="letter-image">
-            // <div class="animated-mail">
-            //     <div class="back-fold"></div>
-            //     <div class="letter">
-            //     <div class="letter-border"></div>
-            //     <div class="letter-salute">Hey there, <br></br> It's Aditya Kishan Ankaraboyana.</div>
-            //     <div class="letter-context"></div>
-            //     <div class="letter-stamp">
-            //         <div class="letter-stamp-inner"></div>
-            //     </div>
-            //     </div>
-            //     <div class="top-fold"></div>
-            //     <div class="body"></div>
-            //     <div class="left-fold"></div>
-            // </div>
-            // <div class="shadow"></div>
-            // </div> */}
 
 
 export default Main;
