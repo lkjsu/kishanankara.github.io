@@ -1,45 +1,21 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Resume from './main5.pdf';
-
-function getClassNameForNav() {
-    if(new Date().getHours() >= 18 || new Date().getHours() <= 6) {
-        return "nav-item-theme-dark";
-    } else {
-        return "nav-item-theme-light";
-    }
-}
-
-
-function setColor() {
-    if(new Date().getHours() >= 18 || new Date().getHours() <= 6) {
-        return "#053B50";
-    } else {
-        return "#A8DF8E";
-    }
-}
-
-function setHoverColor() {
-    if(new Date().getHours() >= 18 || new Date().getHours() <= 6) {
-        return "#fff";
-    } else {
-        return "#A8DF8E";
-    }
-}
+import Resume from './AdityaKA24.pdf';
 
 class Nav extends React.Component {
 
     render() {
+        const { bgColor, hoverColor, className } = this.props;
         return (
             <div>
-                <nav className="navbar" style={{backgroundColor: setColor()}}>
+                <nav className="navbar" style={{backgroundColor: bgColor}}>
                 <div  id="navbarNavAltMarkup">
                     <div>
-                        <NavLink className={getClassNameForNav()} hover={{backgroundColor: setHoverColor()}} to="/">Home</NavLink>
-                        <NavLink className={getClassNameForNav()} hover={{backgroundColor: setHoverColor()}} to="/Experience">Experience</NavLink>
-                        <a href="https://github.com/lkjsu?tab=repositories" className={getClassNameForNav()} hover={{backgroundColor: setHoverColor()}}>Projects</a>
+                        <NavLink className={className} hover={{backgroundColor: hoverColor}} to="/">Home</NavLink>
+                        <NavLink className={className} hover={{backgroundColor: hoverColor}} to="/Experience">Experience</NavLink>
+                        <a href="https://github.com/lkjsu?tab=repositories" className={className} hover={{backgroundColor: hoverColor}}>Projects</a>
                         {/* <NavLink className={getClassNameForNav()} hover={{backgroundColor: setHoverColor()}} to="/Projects">Projects</NavLink> */}
-                        <a href={Resume} className={getClassNameForNav()} hover={{backgroundColor: setHoverColor()}}>Resume</a>
+                        <a href={Resume} className={className} hover={{backgroundColor: hoverColor}}>Resume</a>
                     </div>
                 </div>
                 </nav>

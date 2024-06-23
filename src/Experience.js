@@ -9,24 +9,7 @@ const UBIcon = () => <img class="vertical-timeline-element-icon" src={UB} alt="U
 const NDLogo = () => <img class="vertical-timeline-element-icon" src={ND} alt="UB" width="60px" height="60px" left="50%" top="50%" margin-left="-30px" />
 const HSLogo = () => <img class="vertical-timeline-element-icon" src={HS} alt="UB" width="60px" height="60px" left="50%" top="50%" margin-left="-30px" />
 
-function setColor(date) {
-    if(new Date().getHours() >= 18 || new Date().getHours() <= 6) {
-        return "#053B50";
-    } else {
-        return "#A8DF8E";
-    }
-}
-
 class Experience extends React.Component {
-
-    constructor(props) {
-        super(props);
-        this.state = {
-            bgColor: setColor(new Date().toLocaleTimeString('en-GB'))
-        };
-        this.colors = ['#232D3F','#A8DF8E'];
-        this.buttonNames = ['Lights OFF','Lights ON']
-    }
 
     onScrollFunction() {
         window.addEventListener('scroll', () => {
@@ -40,9 +23,10 @@ class Experience extends React.Component {
     }
     
     render() {
+        const { bgColor } = this.props;
         return (
-            <div className="Page-header" style={{ backgroundColor : this.state.bgColor}}>
-            <p className="Page-text" style={{color : this.state.bgColor === "#053B50"? "#EEEEEE" :"#016A70"}}>Experience</p>
+            <div className="Page-header" style={{ backgroundColor : bgColor}}>
+            <p className="Page-text" style={{color : bgColor === "#053B50"? "#EEEEEE" :"#016A70"}}>Experience</p>
             {/* <div>
             {
                 this.colors.map((c, index) => 
