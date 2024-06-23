@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e011e3e53f5e3a0ecd0b",
+    "revision": "2a29fabbd73f235e8d46",
     "url": "/static/css/main.530c4d2c.chunk.css"
   },
   {
-    "revision": "e011e3e53f5e3a0ecd0b",
-    "url": "/static/js/main.6b86aabc.chunk.js"
+    "revision": "2a29fabbd73f235e8d46",
+    "url": "/static/js/main.8105cd96.chunk.js"
   },
   {
     "revision": "80034f443a585ad9f01f",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/static/media/AdityaKA24.3a7460e6.pdf"
   },
   {
-    "revision": "1ffaa3fe578eeb0d5896bf771574afad",
+    "revision": "e7e5bc1d769bc941978f1e537acf0188",
     "url": "/index.html"
   }
 ];
