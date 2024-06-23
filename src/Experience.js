@@ -26,7 +26,7 @@ class Experience extends React.Component {
         const { bgColor } = this.props;
         return (
             <div className="Page-header" style={{ backgroundColor : bgColor}}>
-            <p className="Page-text" style={{color : bgColor === "#053B50"? "#EEEEEE" :"#016A70"}}>Experience</p>
+            <p className="Page-text" style={{color : bgColor === "#183D3D" ? "#EEEEEE" :"#016A70"}}>Experience</p>
             {/* <div>
             {
                 this.colors.map((c, index) => 
