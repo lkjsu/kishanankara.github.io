@@ -9,9 +9,9 @@ class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            bgColor: null,
-            hoverColor: null,
-            className: null,
+            bgColor: "#183D3D",
+            hoverColor: "#fff",
+            className: "nav-item-theme-dark",
             error: null
         };
     }
