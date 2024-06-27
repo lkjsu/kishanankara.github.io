@@ -9,9 +9,9 @@ class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            bgColor: "#183D3D",
-            hoverColor: "#fff",
-            className: "nav-item-theme-dark",
+            bgColor: "#A8DF8E",
+            hoverColor: "#A8DF8E",
+            className: "nav-item-theme-light",
             error: null
         };
     }
@@ -33,15 +33,15 @@ class App extends React.Component {
                 // console.log(unixsunrise, unixsunset)
                 if(new Date().getTime() >= unixsunrise || new Date().getTime() <= unixsunset) {
                     this.setState({
-                        bgColor: "#183D3D",
-                        hoverColor: "#fff",
-                        className: "nav-item-theme-dark"
-                    })
-                } else {
-                    this.setState({
                         bgColor: "#A8DF8E",
                         hoverColor: "#A8DF8E",
                         className: "nav-item-theme-light"
+                    })
+                } else {
+                    this.setState({
+                        bgColor: "#183D3D",
+                        hoverColor: "#fff",
+                        className: "nav-item-theme-dark"
                     })
                 }
 
