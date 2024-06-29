@@ -51,7 +51,20 @@ class App extends React.Component {
             });
 
         } else {
-            this.setState({error: "Browser doesn't support geolocation!"});
+            if(new Date().getHours() >= 18 || new Date().getHours() <= 6) {
+                this.setState({
+                    bgColor: "#183D3D",
+                    hoverColor: "#fff",
+                    className: "nav-item-theme-dark"
+                })
+            } else {
+                this.setState({
+                    bgColor: "#A8DF8E",
+                    hoverColor: "#A8DF8E",
+                    className: "nav-item-theme-light"
+                })
+            }
+            this.setState({error: "Browser doesn't support geolocation, switching back to the default."});
         }
     }
 
