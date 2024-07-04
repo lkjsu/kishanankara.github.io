@@ -5,9 +5,9 @@ import UB from './logos/Crest_BW.png';
 import ND from './logos/ND.png';
 import HS from './logos/HS.png';
 
-const UBIcon = () => <img class="vertical-timeline-element-icon" src={UB} alt="UB" width="60px" height="60px" left="50%" top="50%" margin-left="-30px"/>
-const NDLogo = () => <img class="vertical-timeline-element-icon" src={ND} alt="UB" width="60px" height="60px" left="50%" top="50%" margin-left="-30px" />
-const HSLogo = () => <img class="vertical-timeline-element-icon" src={HS} alt="UB" width="60px" height="60px" left="50%" top="50%" margin-left="-30px" />
+const UBIcon = () => <img className="vertical-timeline-element-icon" src={UB} alt="UB" width="60px" height="60px" left="50%" top="50%" margin-left="-30px"/>
+const NDLogo = () => <img className="vertical-timeline-element-icon" src={ND} alt="UB" width="60px" height="60px" left="50%" top="50%" margin-left="-30px" />
+const HSLogo = () => <img className="vertical-timeline-element-icon" src={HS} alt="UB" width="60px" height="60px" left="50%" top="50%" margin-left="-30px" />
 
 class Experience extends React.Component {
 

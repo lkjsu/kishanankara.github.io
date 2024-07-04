@@ -27,11 +27,13 @@ class App extends React.Component {
                 const ymd = date.getFullYear() + '/' + date.getMonth() + '/' + date.getDay()
                 const sunrise = ymd + " " + result.sunrise
                 const sunset = ymd + " " + result.sunset
+                // console.log(result)
                 // console.log(sunrise, sunset)
                 const unixsunrise = new Date(sunrise).getTime()
                 const unixsunset = new Date(sunset).getTime()
                 // console.log(unixsunrise, unixsunset)
-                if(new Date().getTime() >= unixsunrise || new Date().getTime() <= unixsunset) {
+                // console.log(new Date().getTime() >= unixsunrise,new Date().getTime() <= unixsunset)
+                if(new Date().getTime() >= unixsunrise && new Date().getTime() <= unixsunset) {
                     this.setState({
                         bgColor: "#A8DF8E",
                         hoverColor: "#A8DF8E",
@@ -47,6 +49,19 @@ class App extends React.Component {
 
 
             }, (error) => {
+                if(new Date().getHours() >= 18 || new Date().getHours() <= 6) {
+                    this.setState({
+                        bgColor: "#183D3D",
+                        hoverColor: "#fff",
+                        className: "nav-item-theme-dark"
+                    })
+                } else {
+                    this.setState({
+                        bgColor: "#A8DF8E",
+                        hoverColor: "#A8DF8E",
+                        className: "nav-item-theme-light"
+                    })
+                }
                 this.setState({ error: error.message });
             });
 
@@ -74,7 +89,7 @@ class App extends React.Component {
             <div>
                 <HashRouter>
                     <div>
-                    <Nav bgColor={bgColor} className={className} hoverColor={hoverColor}/>
+                    <Nav bgColor={bgColor} hoverColor={hoverColor} className={className} />
                     <Routes>
                     <Route path="/" element={<Main bgColor={bgColor}/>} />
                     <Route path="/Experience" element={<Experience bgColor={bgColor} />} />
