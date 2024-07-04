@@ -34,7 +34,7 @@ class App extends React.Component {
                 const unixsunset = new Date(sunset).getTime()
                 // console.log(unixsunrise, unixsunset)
                 // console.log(new Date().getTime() >= unixsunrise,new Date().getTime() <= unixsunset)
-                console.log("Geolocation allowed!")
+                // console.log("Geolocation allowed!")
                 if(new Date().getTime() >= unixsunrise && new Date().getTime() <= unixsunset) {
                     this.setState({
                         bgColor: "#A8DF8E",
