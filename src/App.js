@@ -21,6 +21,7 @@ class App extends React.Component {
             navigator.geolocation.getCurrentPosition(async (position) => {
                 let obj = `lat=${position.coords.latitude}&lng=${position.coords.longitude}`
                 let response = await fetch("https://api.sunrisesunset.io/json?" + obj);
+                // console.log("https://api.sunrisesunset.io/json?" + obj)
                 let resp_obj = await response.json();
                 let result = resp_obj.results
                 const date = new Date()
@@ -33,6 +34,7 @@ class App extends React.Component {
                 const unixsunset = new Date(sunset).getTime()
                 // console.log(unixsunrise, unixsunset)
                 // console.log(new Date().getTime() >= unixsunrise,new Date().getTime() <= unixsunset)
+                console.log("Geolocation allowed!")
                 if(new Date().getTime() >= unixsunrise && new Date().getTime() <= unixsunset) {
                     this.setState({
                         bgColor: "#A8DF8E",
