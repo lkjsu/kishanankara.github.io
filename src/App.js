@@ -4,14 +4,15 @@ import Main from './Main';
 import Experience from './Experience';
 import Nav from './Navigation';
 import Projects from './Projects';
+import { Circles } from 'react-loader-spinner';
 
 class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            bgColor: "#A8DF8E",
-            hoverColor: "#A8DF8E",
-            className: "nav-item-theme-light",
+            bgColor: null,
+            hoverColor: null,
+            className: null,
             error: null
         };
     }
@@ -35,7 +36,7 @@ class App extends React.Component {
                 // console.log(unixsunrise, unixsunset)
                 // console.log(new Date().getTime() >= unixsunrise,new Date().getTime() <= unixsunset)
                 // console.log("Geolocation allowed!")
-                if(new Date().getTime() >= unixsunrise && new Date().getTime() <= unixsunset) {
+                if(new Date().getTime() >= unixsunrise || new Date().getTime() <= unixsunset) {
                     this.setState({
                         bgColor: "#A8DF8E",
                         hoverColor: "#A8DF8E",
@@ -51,6 +52,7 @@ class App extends React.Component {
 
 
             }, (error) => {
+                console.log("Error retrieving geolocation, proceeding with default")
                 if(new Date().getHours() >= 18 || new Date().getHours() <= 6) {
                     this.setState({
                         bgColor: "#183D3D",
@@ -68,6 +70,7 @@ class App extends React.Component {
             });
 
         } else {
+            console.log("Error retrieving geolocation, proceeding with default")
             if(new Date().getHours() >= 18 || new Date().getHours() <= 6) {
                 this.setState({
                     bgColor: "#183D3D",
@@ -86,6 +89,23 @@ class App extends React.Component {
     }
 
     render() {
+        if (!this.state.bgColor || !this.state.className || !this.state.hoverColor) {
+            return (
+                <div style={{position: 'absolute', left: '50%', top: '50%',
+                    transform: 'translate(-50%, -50%)'}}>
+                 <Circles 
+                    height="80"
+                    width="80"
+                    color="#4fa94d"
+                    ariaLabel="circles-loading"
+                    wrapperStyle={{}}
+                    wrapperClass=""
+                    visible={true}
+                />
+                </div>
+                
+            )
+        }
         const { bgColor, hoverColor, className } = this.state;
         return (
             <div>
