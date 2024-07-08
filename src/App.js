@@ -33,10 +33,12 @@ class App extends React.Component {
                 // console.log(sunrise, sunset)
                 const unixsunrise = new Date(sunrise).getTime()
                 const unixsunset = new Date(sunset).getTime()
+
+                // console.log(new Date().getTime() >= unixsunrise, new Date().getTime() <= unixsunset)
                 // console.log(unixsunrise, unixsunset)
                 // console.log(new Date().getTime() >= unixsunrise,new Date().getTime() <= unixsunset)
                 // console.log("Geolocation allowed!")
-                if(new Date().getTime() >= unixsunrise || new Date().getTime() <= unixsunset) {
+                if(new Date().getTime() >= unixsunrise && new Date().getTime() <= unixsunset) {
                     this.setState({
                         bgColor: "#A8DF8E",
                         hoverColor: "#A8DF8E",
@@ -53,7 +55,7 @@ class App extends React.Component {
 
             }, (error) => {
                 console.log("Error retrieving geolocation, proceeding with default")
-                if(new Date().getHours() >= 18 || new Date().getHours() <= 6) {
+                if(new Date().getHours() >= 18 && new Date().getHours() <= 6) {
                     this.setState({
                         bgColor: "#183D3D",
                         hoverColor: "#fff",
@@ -71,7 +73,7 @@ class App extends React.Component {
 
         } else {
             console.log("Error retrieving geolocation, proceeding with default")
-            if(new Date().getHours() >= 18 || new Date().getHours() <= 6) {
+            if(new Date().getHours() >= 18 && new Date().getHours() <= 6) {
                 this.setState({
                     bgColor: "#183D3D",
                     hoverColor: "#fff",
