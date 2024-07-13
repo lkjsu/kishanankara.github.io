@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.9cbc0be7.css",
-    "main.js": "/static/js/main.a53e69d6.js",
+    "main.js": "/static/js/main.875faf7b.js",
     "static/js/453.b3efecc2.chunk.js": "/static/js/453.b3efecc2.chunk.js",
     "static/media/Crest_BW.png": "/static/media/Crest_BW.e948739d99e131c5903a.png",
     "static/media/AdityaKA24.pdf": "/static/media/AdityaKA24.6eeb27093995eccf9a9f.pdf",
     "static/media/ND.png": "/static/media/ND.bc16a62ecb399025dd50.png",
     "index.html": "/index.html",
     "main.9cbc0be7.css.map": "/static/css/main.9cbc0be7.css.map",
-    "main.a53e69d6.js.map": "/static/js/main.a53e69d6.js.map",
+    "main.875faf7b.js.map": "/static/js/main.875faf7b.js.map",
     "453.b3efecc2.chunk.js.map": "/static/js/453.b3efecc2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9cbc0be7.css",
-    "static/js/main.a53e69d6.js"
+    "static/js/main.875faf7b.js"
   ]
 }
