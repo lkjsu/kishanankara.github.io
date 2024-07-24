@@ -32,11 +32,12 @@ class App extends React.Component {
         // console.log(unixTimeStamp - new Date().getTime())
         // console.log("Full year", unixTimeStamp.getFullYear())
         // console.log("Unix timestamp", new Date(unixTimeStamp.getTime()))
-        // console.log("Year", new Date(unixTimeStamp * 1000).getFullYear())
+        // console.log("Year", new Date(unixTimeStamp).getFullYear())
         return unixTimeStamp.getTime()
     }
 
     componentDidMount() {
+        // console.log("geolocation" , 'geolocation' in navigator)
         if ('geolocation' in navigator) {
             navigator.geolocation.getCurrentPosition(async (position) => {
                 let obj = `lat=${position.coords.latitude}&lng=${position.coords.longitude}`
@@ -51,8 +52,10 @@ class App extends React.Component {
                 // console.log("ymd value", ymd)
                 const sunrise = ymd + " " + result.sunrise
                 const sunset = ymd + " " + result.sunset
+                // console.log(result.sunrise, result.sunset)
                 var unixsunrise = this.convertTimeToUnix(sunrise);
                 var unixsunset = this.convertTimeToUnix(sunset);
+                // console.log(new Date(unixsunrise * 1000), new Date(unixsunset * 1000));
                 // console.log(result.sunrise, result.sunset )
                 // console.log(result)
                 // console.log(sunrise, sunset)
@@ -83,7 +86,8 @@ class App extends React.Component {
 
             }, (error) => {
                 console.log("Error retrieving geolocation, proceeding with default")
-                if(new Date().getHours() >= 18 && new Date().getHours() <= 6) {
+                // console.log(new Date().getHours());
+                if((new Date().getHours() >= 18 && new Date().getHours() <= 23) || ( new Date().getHours>= 0 && new Date().getHours() <= 6)) {
                     this.setState({
                         bgColor: "#183D3D",
                         hoverColor: "#fff",
@@ -101,7 +105,7 @@ class App extends React.Component {
 
         } else {
             console.log("Error retrieving geolocation, proceeding with default")
-            if(new Date().getHours() >= 18 && new Date().getHours() <= 6) {
+            if((new Date().getHours() >= 18 && new Date().getHours() <= 23) || ( new Date().getHours>= 0 && new Date().getHours() <= 6)) {
                 this.setState({
                     bgColor: "#183D3D",
                     hoverColor: "#fff",
